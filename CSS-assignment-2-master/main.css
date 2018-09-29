@@ -1,0 +1,122 @@
+/* you will add css rules for element selectors and IDs */
+
+
+/* you may add to or change the body rule */
+body {
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+}
+
+section {
+  max-width: 40em;
+}
+
+h2 {
+  margin:auto;
+}
+
+img {
+    max-width: 100%; /* DO NOT delete or change this line */
+}
+
+header {
+display: flex;
+justify-content: space-between;
+  margin: 0;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background: #000;
+  color: #fff;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0;
+  margin-left: 2rem;
+  background: #333;
+  padding: .6rem 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+    margin: 0;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    background: #000;
+    color: #fff;
+    align-items: center
+
+}
+
+/* ----- SUGGESTED COLORS -----
+    - ARTICLES
+    B26219 cinnamon
+    FFD5AE pale peach
+    FFBD82 peach
+    - LINKS
+    379CB2 medium blue
+    82E8FF light blue
+
+   ----- NEUTRAL COLORS you may use also -----
+   000 black
+   333 charcoal
+   666 dark medium gray
+   999 light medium gray
+   ccc pale gray
+   fff white
+*/
+
+
+/* --- link pseudo classes --- */
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
+
+a {
+    color: #379CB2;
+}
+a:hover {
+    color: #82E8FF;
+}
+
+.text {
+  background: #fff;
+  padding: 10px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+
+}
+
+#cougar {
+  background: #B26219;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+  justify-content: space-between;
+}
+#lion {
+  background: #FFD5AE;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+  justify-content: space-between;
+}
+#tiger {
+  background: #FFBD82;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+  justify-content: space-between;
+}
