@@ -4,9 +4,10 @@
 /* you may add to or change the body rule */
 body {
     font-family: sans-serif;
-    color: #fff;
-    background: #000;
+    color: #000;
+    background: #333;
 }
+
 img {
     max-width: 100%; /* DO NOT delete or change this line */
 }
@@ -39,4 +40,14 @@ a {
 }
 a:hover {
     color: #82E8FF;
+}
+
+.cougar {
+  background: #B26219;
+}
+.lion {
+  background: #FFD5AE;
+}
+.tiger {
+  background: #FFBD82;
 }
